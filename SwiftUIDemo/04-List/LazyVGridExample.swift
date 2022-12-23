@@ -3,14 +3,14 @@ import SwiftUI
 // A container view that arranges its child views in a grid that grows vertically,
 // creating items only as needed.
 
-struct VGridExample {
+struct LazyVGridExample {
     let columns = [
         GridItem(.fixed(100)), GridItem(.adaptive(minimum: 30)), GridItem(.fixed(100))
     ]
     // [GridItem(.adaptive(minimum: 50, maximum: 100))]
 }
 
-extension VGridExample: View {
+extension LazyVGridExample: View {
     var body: some View {
         ScrollView(showsIndicators: false) {
             LazyVGrid(columns: columns) {
@@ -24,9 +24,9 @@ extension VGridExample: View {
     }
 }
 
-struct VGridExample_Previews: PreviewProvider {
+struct LazyVGridExample_Previews: PreviewProvider {
     static var previews: some View {
-        VGridExample()
+        LazyVGridExample()
     }
 }
 

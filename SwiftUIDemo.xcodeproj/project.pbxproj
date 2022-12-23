@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		573006112956292700EDF037 /* DisclosureGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573006102956292700EDF037 /* DisclosureGroup.swift */; };
 		573B57502948B8E1006843F4 /* SwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B574F2948B8E1006843F4 /* SwiftUIDemoApp.swift */; };
 		573B57522948B8E1006843F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B57512948B8E1006843F4 /* ContentView.swift */; };
 		573B57542948B8E3006843F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573B57532948B8E3006843F4 /* Assets.xcassets */; };
@@ -24,8 +25,8 @@
 		57ECD020294B48A500E023F9 /* LabelWithStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ECD01F294B48A500E023F9 /* LabelWithStyle.swift */; };
 		57ECD023294B491300E023F9 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ECD022294B491300E023F9 /* Utilities.swift */; };
 		57ECD025294B493400E023F9 /* ObjectsAndTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ECD024294B493400E023F9 /* ObjectsAndTools.swift */; };
-		57ECD027294B555000E023F9 /* VGridExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ECD026294B555000E023F9 /* VGridExample.swift */; };
-		57ECD02A294BD8B000E023F9 /* HGridExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ECD029294BD8B000E023F9 /* HGridExample.swift */; };
+		57ECD027294B555000E023F9 /* LazyVGridExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ECD026294B555000E023F9 /* LazyVGridExample.swift */; };
+		57ECD02A294BD8B000E023F9 /* LazyHGridExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ECD029294BD8B000E023F9 /* LazyHGridExample.swift */; };
 		57ECD02D294BDD2700E023F9 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ECD02C294BDD2700E023F9 /* MainTabBar.swift */; };
 		57ECD02F294BDD5500E023F9 /* CurrentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ECD02E294BDD5500E023F9 /* CurrentView.swift */; };
 		57ECD031294BDD7500E023F9 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ECD030294BDD7500E023F9 /* HistoryView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		573006102956292700EDF037 /* DisclosureGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroup.swift; sourceTree = "<group>"; };
 		573B574C2948B8E1006843F4 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		573B574F2948B8E1006843F4 /* SwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		573B57512948B8E1006843F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,8 +55,8 @@
 		57ECD01F294B48A500E023F9 /* LabelWithStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelWithStyle.swift; sourceTree = "<group>"; };
 		57ECD022294B491300E023F9 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		57ECD024294B493400E023F9 /* ObjectsAndTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectsAndTools.swift; sourceTree = "<group>"; };
-		57ECD026294B555000E023F9 /* VGridExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGridExample.swift; sourceTree = "<group>"; };
-		57ECD029294BD8B000E023F9 /* HGridExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGridExample.swift; sourceTree = "<group>"; };
+		57ECD026294B555000E023F9 /* LazyVGridExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridExample.swift; sourceTree = "<group>"; };
+		57ECD029294BD8B000E023F9 /* LazyHGridExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridExample.swift; sourceTree = "<group>"; };
 		57ECD02C294BDD2700E023F9 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
 		57ECD02E294BDD5500E023F9 /* CurrentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentView.swift; sourceTree = "<group>"; };
 		57ECD030294BDD7500E023F9 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
@@ -148,8 +150,9 @@
 			children = (
 				57ECD012294AA98A00E023F9 /* SimpleList.swift */,
 				57ECD01D294B481700E023F9 /* ListSwipe.swift */,
-				57ECD026294B555000E023F9 /* VGridExample.swift */,
-				57ECD029294BD8B000E023F9 /* HGridExample.swift */,
+				57ECD026294B555000E023F9 /* LazyVGridExample.swift */,
+				57ECD029294BD8B000E023F9 /* LazyHGridExample.swift */,
+				573006102956292700EDF037 /* DisclosureGroup.swift */,
 			);
 			path = "04-List";
 			sourceTree = "<group>";
@@ -258,12 +261,13 @@
 			files = (
 				57ECD02D294BDD2700E023F9 /* MainTabBar.swift in Sources */,
 				57ECD00D294AA57D00E023F9 /* TextWithStyle.swift in Sources */,
+				573006112956292700EDF037 /* DisclosureGroup.swift in Sources */,
 				57ECD013294AA98A00E023F9 /* SimpleList.swift in Sources */,
 				57ECD025294B493400E023F9 /* ObjectsAndTools.swift in Sources */,
 				57ECD023294B491300E023F9 /* Utilities.swift in Sources */,
 				57ECD010294AA69600E023F9 /* RoundingWrapper.swift in Sources */,
 				57ECD00B294AA37900E023F9 /* ButtonWithStyle.swift in Sources */,
-				57ECD027294B555000E023F9 /* VGridExample.swift in Sources */,
+				57ECD027294B555000E023F9 /* LazyVGridExample.swift in Sources */,
 				57ECD01C294AADC700E023F9 /* ValueViewModel.swift in Sources */,
 				57ECD033294BE04600E023F9 /* History.swift in Sources */,
 				57ECD016294AAAE300E023F9 /* ObservableExample.swift in Sources */,
@@ -271,7 +275,7 @@
 				57ECD02F294BDD5500E023F9 /* CurrentView.swift in Sources */,
 				57ECD035294BE12F00E023F9 /* DestinationView.swift in Sources */,
 				573B575E2949F945006843F4 /* resultBuilderTwo.swift in Sources */,
-				57ECD02A294BD8B000E023F9 /* HGridExample.swift in Sources */,
+				57ECD02A294BD8B000E023F9 /* LazyHGridExample.swift in Sources */,
 				573B57522948B8E1006843F4 /* ContentView.swift in Sources */,
 				573B57502948B8E1006843F4 /* SwiftUIDemoApp.swift in Sources */,
 				57ECD020294B48A500E023F9 /* LabelWithStyle.swift in Sources */,

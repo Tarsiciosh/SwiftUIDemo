@@ -40,9 +40,9 @@ func symbolNames(startingWith root: String) -> [String] {
         }
 }
 
-/*func symbols(withRoot root: Node) -> [Symbol] {
+func symbols(withRoot root: Node) -> [Symbol] {
     symbols
         .filter{symbol in
             symbol.name.starts(with: root.name)
         }
-}*/
+}
